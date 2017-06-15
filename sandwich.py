@@ -1,3 +1,3 @@
 
 def sandwichify(any_string):
-    return any_string + '_sandwich'
+    return '{}_sandwich'.format(any_string)
